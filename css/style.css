@@ -26,7 +26,7 @@
 /* titulo */
 h1 {
 	font-size: 27pt;
-	font-family: 'helveticaneue_condensedRg', TimesNewRoman;
+	font-family: 'helveticaneue_condensedRg', ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	padding-left: 50px;
 	padding-right: 45px;
@@ -34,10 +34,6 @@ h1 {
 	text-align: left;
 }
 
-/* bajada */
-.bajada {
-	font-size: 12pt;
-}
 
 p {
 	font-size: 11pt;
@@ -48,6 +44,14 @@ p {
 	text-align: justify;
 }
 
+/* bajada */
+.bajada {
+	font-size: 12pt;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-style: italic;
+}
+
+
 .box {
 	font-size: 12pt;
 	font-style: italic;
@@ -57,6 +61,28 @@ p {
 	margin-right: 45px;
 }
 
+.caption {
+	font-family: 'helveticaneue_condensedRg';
+	text-align: right;
+}
+
+#footer {
+	position: relative;
+/*	min-height: 230px;*/
+	background-image: url('../images/9.png');
+	background-repeat: no-repeat;
+	background-size: 732px;
+	text-align: center;
+}
+
 #site {
+	color: #ffffff;
+	font-family: 'helveticaneue_condensedRg', ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+	padding-top: 100px; 
 	font-size: 21pt;
+	min-height: 130px; /* padding-top + min-height = 230 */
+}
+
+#social img {
+	float: left;
 }
