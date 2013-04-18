@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "helveticaneue_condensedRg";
+    font-style: normal;
+    font-weight: normal;
+    src: url("http://www.metododerose.com.ar/_recursos/css/HelveticaNeueCondensed/helveticaneue-condensed-webfont.eot?#iefix") format("embedded-opentype"), url("http://www.metododerose.com.ar/_recursos/css/HelveticaNeueCondensed//helveticaneue-condensed-webfont.woff") format("woff"), url("http://www.metododerose.com.ar/_recursos/css/HelveticaNeueCondensed//helveticaneue-condensed-webfont.ttf") format("truetype"), url("http://www.metododerose.com.ar/_recursos/css/HelveticaNeueCondensed//helveticaneue-condensed-webfont.svg#helveticaneue_condensedRg") format("svg");
+}
+
+#container {
+	width: 732px;
+
+	/* centrado */	
+	margin-left: auto;
+	margin-right: auto;
+
+
+	background: #ffffff; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #e0e1e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e0e1e2)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #ffffff 0%,#e0e1e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e1e2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/* titulo */
+h1 {
+	font-size: 27pt;
+	font-family: 'helveticaneue_condensedRg', TimesNewRoman;
+	font-weight: normal;
+	padding-left: 50px;
+	padding-right: 45px;
+
+	text-align: left;
+}
+
+/* bajada */
+.bajada {
+	font-size: 12pt;
+}
+
+p {
+	font-size: 11pt;
+
+	padding-left: 50px;
+	padding-right: 45px;
+
+	text-align: justify;
+}
+
+.box {
+	font-size: 12pt;
+	font-style: italic;
+	background-color: #d8d5d6;
+
+	margin-left: 50px;
+	margin-right: 45px;
+}
+
+#site {
+	font-size: 21pt;
+}
