@@ -134,6 +134,13 @@ p {
 	font-size: 32pt; /* en diseño grafico eran 21pt */
 	/* min-height: 130px;  padding-top + min-height = 230 */
 }
+#site a, #site a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+#site a:hover {
+	text-decoration: underline;
+}
 
 #social {
 	height: 105px;
