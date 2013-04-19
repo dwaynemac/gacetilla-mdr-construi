@@ -34,7 +34,6 @@ h1 {
 	text-align: left;
 }
 
-
 p {
 	font-size: 11pt;
 
@@ -51,39 +50,66 @@ p {
 	font-style: italic;
 }
 
-
-#edgardo {
+.box {
 	position: relative;
 
 	margin-left: 50px;
 	margin-right: 45px;
 
-	width: 590px;
-	height: 321px;
-
-	background-color: #d8d5d6;
-
+	background-color: #d7d5d6;
 	border-top-left-radius: 36px;
+
+	width: 590px;
 }
 
+.box div {
+	float: left;
+	text-align: right;
+	font-size: 12pt;
+	font-style: italic;
+	line-height: 125%;
+}
+
+.box img {
+	float: right;	
+}
+
+#edgardo {
+	height: 321px;
+}
 #edgardo div {
 	width: 405px;
-	float: left;
-
-	line-height: 125%;
-
-	text-align: right;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 40px;
-
-	font-size: 12pt;
-	font-style: italic;
+}
+#edgardo img {
+	margin-right: -50px;
 }
 
-#edgardo img {
-	float: right;
+#video {
+	height: 321px;
+}
+#video div {
+	width: 144px;
+	padding-left: 30px;
+	padding-right: 35px;
+	padding-top: 40px;
+}
+
+#video img {
+	margin-top: -1px;
 	margin-right: -50px;
+	cursor:pointer;
+}
+
+#inspira-youtube-embed {
+	padding-left: 2px;
+	background-image: url('../images/6.png');
+	display: none;
+}
+#inspira-youtube-embed-iframe {
+	display: none;
 }
 
 .caption {
@@ -103,11 +129,19 @@ p {
 #site {
 	color: #ffffff;
 	font-family: 'helveticaneue_condensedRg', ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+	font-weight: normal;
 	padding-top: 100px; 
-	font-size: 21pt;
-	min-height: 130px; /* padding-top + min-height = 230 */
+	font-size: 32pt; /* en diseño grafico eran 21pt */
+	/* min-height: 130px;  padding-top + min-height = 230 */
+}
+
+#social {
+	height: 105px;
+	padding-left: 245px;
 }
 
 #social img {
 	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
 }
