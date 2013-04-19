@@ -52,13 +52,38 @@ p {
 }
 
 
-.box {
-	font-size: 12pt;
-	font-style: italic;
-	background-color: #d8d5d6;
+#edgardo {
+	position: relative;
 
 	margin-left: 50px;
 	margin-right: 45px;
+
+	width: 590px;
+	height: 321px;
+
+	background-color: #d8d5d6;
+
+	border-top-left-radius: 36px;
+}
+
+#edgardo div {
+	width: 405px;
+	float: left;
+
+	line-height: 125%;
+
+	text-align: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+
+	font-size: 12pt;
+	font-style: italic;
+}
+
+#edgardo img {
+	float: right;
+	margin-right: -50px;
 }
 
 .caption {
