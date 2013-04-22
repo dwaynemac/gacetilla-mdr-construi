@@ -43,6 +43,11 @@ p {
 	text-align: justify;
 }
 
+img#deroseartcompany {
+	margin-left: 50px;
+	width: 639px;
+}
+
 /* bajada */
 .bajada {
 	font-size: 12pt;
