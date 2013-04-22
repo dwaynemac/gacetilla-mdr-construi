@@ -1,7 +1,16 @@
 @font-face {
+	font-family: 'universe_condensed';
+	font-stretch: condensed;
+	font-weight: lighter;
+	src: local("Univers Light Condensed"),
+		 url(fonts/universe_lt_std/UniversLTStd-LightCn.otf);
+}
+
+@font-face {
     font-family: "helveticaneue_condensedRg";
     font-style: normal;
     font-weight: normal;
+    font-stretch: condensed;
     src: url("http://www.metododerose.com.ar/_recursos/css/HelveticaNeueCondensed/helveticaneue-condensed-webfont.eot?#iefix") format("embedded-opentype"), url("http://www.metododerose.com.ar/_recursos/css/HelveticaNeueCondensed//helveticaneue-condensed-webfont.woff") format("woff"), url("http://www.metododerose.com.ar/_recursos/css/HelveticaNeueCondensed//helveticaneue-condensed-webfont.ttf") format("truetype"), url("http://www.metododerose.com.ar/_recursos/css/HelveticaNeueCondensed//helveticaneue-condensed-webfont.svg#helveticaneue_condensedRg") format("svg");
 }
 
@@ -26,8 +35,9 @@
 /* titulo */
 h1 {
 	font-size: 27pt;
-	font-family: 'helveticaneue_condensedRg', ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
+	font-stretch: condensed;
+	font-weight: lighter;
 	padding-left: 50px;
 	padding-right: 45px;
 
@@ -118,7 +128,10 @@ img#deroseartcompany {
 }
 
 .caption {
-	font-family: 'helveticaneue_condensedRg';
+	margin-top: -15px;
+
+	font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
+	font-stretch: condensed;
 	text-align: right;
 }
 
@@ -133,7 +146,7 @@ img#deroseartcompany {
 
 #site {
 	color: #ffffff;
-	font-family: 'helveticaneue_condensedRg', ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+	font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	padding-top: 100px; 
 	font-size: 32pt; /* en diseño grafico eran 21pt */
