@@ -143,16 +143,17 @@ img#deroseartcompany {
 /*	min-height: 230px;*/
 	background-image: url('../images/9.png');
 	background-repeat: no-repeat;
-	background-size: 732px;
+	background-size: 600px;
 	text-align: center;
 }
 
 #site {
 	color: #ffffff;
 	font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
+	font-stretch: condensed;
 	font-weight: normal;
-	padding-top: 100px; 
-	font-size: 32pt; /* en diseño grafico eran 21pt */
+	padding-top: 70px; 
+	font-size: 30pt; /* en diseño grafico eran 21pt */
 	/* min-height: 130px;  padding-top + min-height = 230 */
 }
 #site a, #site a:visited {
