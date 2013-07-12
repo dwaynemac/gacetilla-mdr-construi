@@ -2,3 +2,6 @@ README
 
 CSS Inliner
 http://beaker.mailchimp.com/inline-css
+
+
+Estoy haciendo un branch para cada version. Lo ideal seria alterar el index.html y luego utlizar el CSS Inliner para generar el index_inlined.html
