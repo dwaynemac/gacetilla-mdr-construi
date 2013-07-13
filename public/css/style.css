@@ -1,9 +1,9 @@
 @font-face {
-	font-family: 'universe_condensed';
-	font-stretch: condensed;
-	font-weight: lighter;
-	src: local("Univers Light Condensed"),
-		 url(fonts/universe_lt_std/UniversLTStd-LightCn.otf);
+  font-family: 'universe_condensed';
+  font-stretch: condensed;
+  font-weight: lighter;
+  src: local("Univers Light Condensed"),
+     url(fonts/universe_lt_std/UniversLTStd-LightCn.otf);
 }
 
 @font-face {
@@ -15,167 +15,174 @@
 }
 
 body {
-	background-color: #e0e1e2;
+  background-color: #e0e1e2;
 }
 
 #container {
-	width: 600px;
+  width: 600px;
 
-	/* centrado */	
-	margin-left: auto;
-	margin-right: auto;
+  /* centrado */
+  margin-left: auto;
+  margin-right: auto;
 
 
-	background: #ffffff; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #e0e1e2 100%); /* FF3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e0e1e2)); /* Chrome,Safari4+ */
-	background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* Opera 12+ */
-	background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* IE10+ */
-	background: radial-gradient(ellipse at center,  #ffffff 0%,#e0e1e2 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e1e2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #ffffff; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #e0e1e2 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e0e1e2)); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  #ffffff 0%,#e0e1e2 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  #ffffff 0%,#e0e1e2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e0e1e2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /* titulo */
 h1 {
-	font-size: 27pt;
-	font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
-	font-stretch: condensed;
-	font-weight: lighter;
-	padding-left: 50px;
-	padding-right: 45px;
+  font-size: 27pt;
+  font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+  font-weight: lighter;
+  padding-left: 50px;
+  padding-right: 45px;
 
-	text-align: left;
+  text-align: left;
 }
 
 p {
-	font-size: 11pt;
+  font-size: 11pt;
 
-	padding-left: 50px;
-	padding-right: 45px;
+  padding-left: 50px;
+  padding-right: 45px;
 
-	text-align: justify;
+  text-align: justify;
 }
 
 img#construi {
-	margin-left: 50px;
-	width: 505px;
+  margin-left: 50px;
+  width: 505px;
 }
 
 img#deroseartcompany {
-	margin-left: 50px;
-	width: 505px;
+  margin-left: 50px;
+  width: 505px;
 }
 
 /* bajada */
 .bajada {
-	font-size: 12pt;
-	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-	font-style: italic;
+  font-size: 12pt;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  font-style: italic;
 }
 
 .box {
-	position: relative;
+  position: relative;
 
-	margin-left: 50px;
-	margin-right: 45px;
+  margin-left: 50px;
+  margin-right: 45px;
 
-	background-color: #d7d5d6;
-	border-top-left-radius: 36px;
+  background-color: #d7d5d6;
+  border-top-left-radius: 36px;
 
-	width: 470px;
+  width: 505px;
 }
 
 .box div {
-	float: left;
-	text-align: right;
-	font-size: 11pt;
-	font-style: italic;
-	line-height: 115%;
+  float: left;
+  text-align: right;
+  font-size: 11pt;
+  font-style: italic;
+  line-height: 115%;
 }
 
 .box img {
-	float: right;	
+  float: right;
 }
 
 #edgardo {
-	height: 321px;
+  height: 321px;
 }
 #edgardo div {
-	width: 280px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 25px;
+  width: 280px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 25px;
 }
+/*
 #edgardo img {
-	margin-right: -35px;
-}
+  margin-right: -35px !important;
+}*/
 
 #video {
-	height: 260px;
+  height: 260px;
 }
 #video div {
-	width: 144px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
+  width: 144px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+#video div p {
+  width: inherit;
+  padding: 0px;
+  text-align: right;
+  margin-top: -5px;
 }
 
 #video img {
-	margin-top: -1px;
-	margin-right: -35px;
-	cursor:pointer;
+  margin-top: -1px;
+  /*margin-right: -35px !important;*/
+  cursor:pointer;
 }
 
 #inspira-youtube-embed {
-	padding-left: 2px;
-	background-image: url('../images/6.png');
-	display: none;
+  padding-left: 2px;
+  background-image: url('../images/6.png');
+  display: none;
 }
 #inspira-youtube-embed-iframe {
-	display: none;
+  display: none;
 }
 
 .caption {
-	margin-top: 0px;
-	font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
-	font-stretch: condensed;
-	text-align: right;
+  margin-top: 0px;
+  font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+  text-align: right;
 }
 
 #footer {
-	position: relative;
-/*	min-height: 230px;*/
-	background-image: url('../images/9.png');
-	background-repeat: no-repeat;
-	background-size: 600px;
-	text-align: center;
+  position: relative;
+/*  min-height: 230px;*/
+  background-image: url('../images/9.png');
+  background-repeat: no-repeat;
+  background-size: 600px;
+  text-align: center;
 }
 
 #site {
-	color: #ffffff;
-	font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
-	font-stretch: condensed;
-	font-weight: normal;
-	padding-top: 70px; 
-	font-size: 30pt; /* en diseño grafico eran 21pt */
-	/* min-height: 130px;  padding-top + min-height = 230 */
+  color: #ffffff;
+  font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+  font-weight: normal;
+  padding-top: 70px;
+  font-size: 25pt; /* en diseño grafico eran 21pt */
+  /* min-height: 130px;  padding-top + min-height = 230 */
 }
 #site a, #site a:visited {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 #site a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 #social {
-	height: 105px;
-	padding-left: 185px;
+  height: 105px;
+  padding-left: 180px;
 }
 
 #social img {
-	float: left;
-	margin-top: 10px;
-	margin-left: 15px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
 }
