@@ -38,7 +38,7 @@ body {
 
 /* titulo */
 h1 {
-  font-size: 27pt;
+  font-size: 36px;
   font-family: 'universe_condensed', 'helveticaneue_condensedRg', Helvetica, Arial, sans-serif;
   font-stretch: condensed;
   font-weight: lighter;
@@ -49,7 +49,7 @@ h1 {
 }
 
 p {
-  font-size: 11pt;
+  font-size: 15px;
 
   padding-left: 50px;
   padding-right: 45px;
@@ -69,7 +69,7 @@ img#deroseartcompany {
 
 /* bajada */
 .bajada {
-  font-size: 12pt;
+  font-size: 16px;
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
   font-style: italic;
 }
@@ -89,8 +89,7 @@ img#deroseartcompany {
 .box div {
   float: left;
   text-align: right;
-  font-size: 11pt;
-  font-style: italic;
+  font-size: 15px;
   line-height: 115%;
 }
 
@@ -165,7 +164,7 @@ img#deroseartcompany {
   font-stretch: condensed;
   font-weight: normal;
   padding-top: 70px;
-  font-size: 25pt; /* en diseño grafico eran 21pt */
+  font-size: 32px; /* en diseño grafico eran 21pt */
   /* min-height: 130px;  padding-top + min-height = 230 */
 }
 #site a, #site a:visited {
